@@ -30,12 +30,12 @@ Antes de iniciar, certifique-se de ter instalado em sua máquina:
 
 1. Clone o repositório:
    ```
-   git clone https://github.com/ghdeuner/gerenciador_orcamento.git
+   git clone https://github.com/ghdeuner/orcamento-jeferson.git
    ```
 
 2. Navegue até o diretório do projeto:
    ```
-   cd gerenciador-orcamento-pessoal
+   cd gerenciador-orcamento
    ```
 
 3. Instale as dependências:
