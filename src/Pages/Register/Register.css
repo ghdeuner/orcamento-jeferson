@@ -1,0 +1,64 @@
+.register {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.register h1 {
+  text-align: center;
+  color: #000000;
+  margin-bottom: 1.5rem;
+}
+
+.register form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register input {
+  margin-bottom: 1rem;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.register input:focus {
+  outline: none;
+  border-color: #000000;
+  box-shadow: 0 0 0 2px rgba(0,123,255,0.25);
+}
+
+.register button[type="submit"] {
+  padding: 10px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register button[type="submit"]:hover {
+  background-color: #07a007;
+}
+
+@media (max-width: 480px) {
+  .register {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+
+  .register h1 {
+    font-size: 1.5rem;
+  }
+
+  .register input,
+  .register button[type="submit"] {
+    font-size: 14px;
+  }
+}
